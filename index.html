@@ -533,7 +533,7 @@
                     <h3 class="text-3xl font-extrabold text-brown text-center mb-6">Ready to Lead? Apply Now.</h3>
                     <p class="text-center text-gray-700 mb-8">Take the first step towards ethical, impactful leadership. Join our next cohort.</p>
                     
-                    <form id="application-form" class="space-y-6">
+                    <form id="application-form" class="space-y-6" action="https://formspree.io/f/xovogjkl" method="POST">
                         <!-- Full Name & Email (Existing) -->
                         <div>
                             <label for="fullName" class="block text-sm font-medium text-brown">Full Name</label>
@@ -703,7 +703,7 @@
 
         // --- 4. Form Submission Handlers (Interactive Feedback) ---
 
-        // Application Form
+        /*// Application Form
         document.getElementById('application-form').addEventListener('submit', function(event) {
             event.preventDefault();
             const fullName = document.getElementById('fullName').value;
@@ -714,7 +714,7 @@
             );
             
             this.reset();
-        });
+        });*/
 
         // --- 5. Observer for Glow Effect on Touch Devices (optional enhancement) ---
         
